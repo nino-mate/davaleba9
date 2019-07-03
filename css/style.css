@@ -19,6 +19,11 @@ a:hover{
 	width: 198px;
 	height: auto;
 }
+.navbar-logo-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
 .google{
 	width: 47px;
 	height: auto;
@@ -35,6 +40,11 @@ a:hover{
 	width: 40px;
 	height: auto;
 }
+/*.after:after{
+	content: "";
+    padding-right: 1.5px;
+    background-color: #3D58A6;
+}*/
 .padding{
 	padding-right: 20px;
 	padding-left: 20px;
@@ -149,7 +159,7 @@ a:hover{
 	text-align: center;
 	padding-top: 144px;
 }
-.text-block{
+.bottom-block{
 	max-width: 1366px;
 	width: 100%;
 	height: auto;
@@ -165,7 +175,7 @@ a:hover{
 	padding-top: 34px;
 	padding-bottom: 35px;
 }
-.text-block2{
+.text-block{
 	max-width: 1366px;
 	width: 100%;
 	height: auto;
@@ -228,17 +238,16 @@ a:hover{
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	flex-wrap: wrap;
 }
 .p9{
 	font-size: 12px;
-	padding-left: 48px;
+	padding-left: 98px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
 .p10{
 	font-size: 12px;
-	padding-right: 48px;
+	padding-right: 98px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
